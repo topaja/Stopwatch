@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #426bf4c7;
+  font-family: "Raleway", sans-serif;
+}
+.box {
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  border-radius: 60px 10px 60px 10px;
+  box-shadow: 5px 5px 10px white;
+}
+.heading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+#time {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: "Nunito", sans-serif;
+}
+.btn-grp {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn {
+  width: 80px;
+  height: 35px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#start {
+  background-color: rgb(67, 188, 67);
+  color: white;
+}
+#stop {
+  background-color: crimson;
+  color: white;
+}
+#reset {
+  background-color: royalblue;
+  color: white;
+}
